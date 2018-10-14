@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    @include flexbox;
+    @include flex-dir(column);
+}
+
+.myselector {
+    @include push--auto;
+    background: $primary-color;
+    color: $secondary-color;
+    padding: 40px;
+}
+
+.myselector::after {
+    @include pseudo;
+    top: -1rem; left: -1rem;
+    width: 1rem; height: 1rem;
+}
