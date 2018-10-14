@@ -1,6 +1,6 @@
 # Oxygen Sass #
 
-A companion plugin to WP-SCSS for working with Sass in [Oxygen](http://oxygenbuilder.com/).
+A companion plugin to WP-SCSS for working with Sass (.scss format) in [Oxygen](http://oxygenbuilder.com/).
 
 ## Info ##
 
@@ -14,7 +14,7 @@ In WP-SCSS's settings, set Scss Location to `/scss/` and CSS Location to `/css/`
 
 This plugin also loads the compiled CSS file in both the Oxygen editor and frontend.
 
-https://www.youtube.com/watch?v=Ia7WFY0ydlo
+Overview video: https://www.youtube.com/watch?v=Ia7WFY0ydlo
 
 ## Prerequisites ##
 
